@@ -1,0 +1,13 @@
+key 100 100 100 100 0 5 10 1 0 1 0 1
+helmet helmet 0 0 0 0 0 0 100
+shield shield 0 0 0 0 0 0 100
+armour armour 0 0 0 0 0 0 100
+boots boots 0 0 0 0 0 0 100
+hand hand 0 0 0 0 0 0 100
+legs legs 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100

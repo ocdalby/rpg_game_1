@@ -1,0 +1,13 @@
+ren 260.0 100 180.0 100 0 21.0 70.0 1.0 135 1.0 55.3948442652 1
+helmet helmet 0 0 0 0 0 0 100
+shield shield 0 0 0 0 0 0 100
+armour armour 0 0 0 0 0 0 100
+boots boots 0.0 16.0 160.0 80.0 0.0 0.0 800.0
+hand hand 0 0 0 0 0 0 100
+legs legs 0 0 0 0 0 0 100
+boots boots 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
+none none 0 0 0 0 0 0 100
