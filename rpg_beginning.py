@@ -230,14 +230,13 @@ while True:
     if not move:
         print''
     else:
-        move=move.split()
-
+        move = move.split()
 
         if move[0] == 'go' and move[-1] in directions:
             if eval('currentroom.%s' % (move[1])) != None:
                 hero.time_action()
                 currentroom = eval('currentroom.%s' % (move[1]))
-                print 'you enter the %s' % (colored(currentroom.name,'blue'))
+                print 'you enter the %s' % (colored(currentroom.name, 'blue'))
                 if currentroom.happening(hero) == 0:
                     print 'game over'
                     break
@@ -259,13 +258,13 @@ while True:
         if move[0] == 'home':
             currentroom = rooms['home']
 
-        if autosave_count%20 ==0:
+        if autosave_count % 20 == 0:
             hero.save_hero('autosave')
-        autosave_count+=1
+        autosave_count += 1
 
-        if move[0]=='sleep' and currentroom.name=='home':
+        if move[0] == 'sleep' and currentroom.name == 'home':
             hero.days('sleep')
             hero.HP = hero.HP_max
             hero.MP = hero.MP_max
-        if move[0] =='help':
+        if move[0] == 'help':
             _help.controls()

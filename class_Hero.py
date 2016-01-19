@@ -7,7 +7,7 @@ from class_items import Item
 
 
 class Hero(LivingThing):
-    def __init__(self, name, hero_class, spells_equip=[], HP_max=100, MP_max=100, evasion=1, magic_armor=10, crit=1, dmg=0, armour=0, time=7, gold=0, experience=110):
+    def __init__(self, name, hero_class, spells_equip=[], HP_max=100, MP_max=100, evasion=1, magic_armor=10, crit=1, dmg=0, armour=0, time=7, gold=0, experience=0):
         self.name = colored(name, 'blue', attrs=['blink'])
         self.HP_max = HP_max
         self.HP = HP_max
